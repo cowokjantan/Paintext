@@ -1,0 +1,8 @@
+{
+  "name": "paintext",
+  "version": "1.0.0",
+  "scripts": {
+    "vercel-build": "mkdir -p .vercel/output/static && cp index.html .vercel/output/static/ && cp image_42fcfd_2.jpg .vercel/output/static/ 2>/dev/null || true"
+  },
+  "dependencies": {}
+}
