@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
-import { SITE_CONFIG, MOCK_STATS } from "@/config/site";
+import { SITE_CONFIG } from "@/config/site";
+import { MOCK_STATS } from "@/lib/mock-data";
 import { LineChart, ExternalLink } from "lucide-react";
 
 export default function ChartSection() {
